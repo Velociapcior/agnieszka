@@ -1,0 +1,11 @@
+1. Każdy element najwyższego poziomu osobne tło
+2. Elementy mają mieć 24 piksele marginesu góra i dół.
+    (Podpowiedź: owiń każdy element <div> i nadaj styl temu elementowi)
+3. Każda element listy ma mieć kolor zielony kolor tekstu 
+    (Jak dodam nowy, też ma mieć tekst zielony)
+3.b Co drugi element listy ma mieć pogrubioną czcionke - nie automatycznie
+4. Obrazek jakikolwiek, który po kliknięciu przeniesie na www.google.pl
+5. Obrazek ma mieć kreskowaną obwódkę wokół siebie
+
+BONUS: Spróbuj sprawić, żeby listy <ol> i <ul> wyświetlały się obok siebie,
+        a nie pod sobą.

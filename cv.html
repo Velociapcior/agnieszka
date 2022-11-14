@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+
+    h1 {
+      font-weight: normal;
+      font-style: italic;
+      font-size: 56px;
+      text-align: center;
+      margin-left: 100px;
+      margin-top: 70px;
+    }
+
+    .picture {
+      align: left;
+      width: 220px;
+      height: 250px;
+      border: solid rgb(213, 213, 213) 20px;
+      margin-left: 50px;
+    }
+
+    .nameContainer {
+      font-weight: bold;
+      font-size: xx-large;
+      font-style: normal;
+      margin-top: 20px;
+      margin-left: 65px;
+      margin-bottom: 20px;
+    }
+
+    .contactData {
+      font-size: large;
+      font-style: normal;
+    }
+
+    .myData {
+      font-size: x-large;
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    .accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      font-size: large;
+    }
+
+    .active,
+    .accordion:hover {
+      background-color: #ccc;
+    }
+
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+    }
+  </style>
+
+  <body>
+    <h1>Curriculum Vitae</h1>
+    <img class="picture" src="fota.jpg" />
+    <div class="nameContainer">Agnieszka Palej</div>
+    <div>
+      <span class="contactData">e-mail adress:</span>
+      <span class="myData">ae.palej@gmail.com</span>
+    </div>
+    <div>
+      <span class="contactData">phone number:</span>
+      <span class="myData">533874441</span>
+    </div>
+    <button class="accordion">EXPERIENCE</button>
+    <div class="panel">
+      <p>
+        2016 - now - Senior Lab Technican, Department of Analytical Chemistry
+        and Chemical Metallurgy, Wrocław University of Technology;
+      </p>
+      <p>
+        Sept 2015 - Dec 2015 - Mobile Sales Representative (Trainee), KODA Group
+        Krzysztof Malina;
+      </p>
+    </div>
+  </body>
+</html>
